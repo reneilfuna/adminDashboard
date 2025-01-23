@@ -41,18 +41,20 @@
     grid-column: 1;
     grid-row: 1;
 
-    grid-template-columns: 2fr 8fr;
+    grid-template-columns: 1fr 12fr;
 
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 #search svg{
     grid-column: 1;
+    justify-self: end;
 }
 
 #bar {
-    width: 70%;
-    height: 50%;
+    width: 90%;
+    height: 55%;
 
     grid-column: 2;
 
