@@ -100,7 +100,24 @@
 #account{
     grid-row: 1 / 3;
 
+    align-items: center;
+    justify-self: end;
     height: 70px;
+    margin: 15px;
+}
+
+#sub, #userName {
+    justify-self: start;
+    font-weight: 700;
+}
+
+#sub {
+    align-self: end;
+}
+
+#userName{
+    align-self: start;
+    font-size: 2vw;
 }
 
 #buttons {
