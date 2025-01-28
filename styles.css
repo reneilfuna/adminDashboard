@@ -121,10 +121,14 @@
 }
 
 #buttons {
+    display: grid;
+
     grid-column: 2;
     grid-row: 2;
-}
 
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
 
 #clipboard {
     display: grid;
