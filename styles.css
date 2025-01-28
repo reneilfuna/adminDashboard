@@ -38,15 +38,17 @@
 
 #top {
     display: grid;
+    grid-row: 1;
 
     grid-template-columns: 3.5fr 1.5fr;
 }
 
 #bottom {
     display: grid;
+    grid-row: 2;
 
     grid-template-columns: 2.5fr 1.5fr;
-    grid-template-rows: 0fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 #search {
@@ -100,7 +102,7 @@
     display: grid;
 
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
 
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(2, 1fr);
@@ -129,17 +131,32 @@
 
 #userName{
     align-self: start;
-    font-size: 2vw;
+    font-size: 2.5vh;
+    margin-block-start: 4px;
 }
 
 #buttons {
     display: grid;
 
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
 
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.button {
     align-content: center;
+    align-self: center;
+    background-color: #F40119;
+    border-radius: 50px;
+    color: ivory;
+
+    font-weight: 700;
+
+    height: 40%;
+    width: 75%;
 }
 
 #clipboard {
