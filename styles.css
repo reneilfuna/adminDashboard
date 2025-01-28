@@ -8,7 +8,7 @@
     display: grid;
     text-align: center;
 
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 1fr 4.5fr;
     grid-template-columns: 2fr 6fr;
 
     height: 100vh;
