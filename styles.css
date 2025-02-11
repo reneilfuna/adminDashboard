@@ -53,10 +53,20 @@
     grid-template-rows: repeat(3, 1fr) 0.5fr;
 }
 
-li {
+#logo, li {
     display: grid;
     grid-template-columns: 1fr 6fr;
     gap: 10px;
+}
+
+#logo {
+    align-items: center;
+    font-size: min(32px, 2.4vw);
+}
+
+li.menu {
+    align-items: center;
+    font-size: min(24px, 2vw);
 }
 
 
