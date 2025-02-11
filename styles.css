@@ -13,7 +13,7 @@
 
     height: 100vh;
 }
-
+/* Sidebar section start */
 
 #sidebar {
     display: grid;
@@ -26,7 +26,17 @@
     font-size: 2vh;
 }
 
-/* Navigation bar section starts here */
+#logo, #upper, #lower {
+    margin: 20px;
+    justify-self: start;
+    text-align: left;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+/* Sidebar end */
+
+/* Navigation bar start */
 
 #header {
     display: grid;
@@ -163,7 +173,7 @@
     width: 75%;
 }
 
-/* Navigation bar section ends here */
+/* Navigation bar end */
 
 #clipboard {
     display: grid;
