@@ -26,6 +26,7 @@
     font-size: 2vh;
 }
 
+/* Navigation bar section starts here */
 
 #header {
     display: grid;
@@ -161,6 +162,8 @@
     height: 40%;
     width: 75%;
 }
+
+/* Navigation bar section ends here */
 
 #clipboard {
     display: grid;
