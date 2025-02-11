@@ -41,7 +41,7 @@
 }
 
 #total {
-    grid-template-rows: 3fr 0.5fr 2fr;
+    grid-template-rows: 3fr 0.4fr 2fr;
 }
 
 #upper {
@@ -50,7 +50,17 @@
 
 #lower {
     grid-row: 3 / 4;
+    grid-template-rows: repeat(3, 1fr) 0.5fr;
 }
+
+li {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 10px;
+}
+
+
+
 /* Sidebar end */
 
 /* Navigation bar start */
