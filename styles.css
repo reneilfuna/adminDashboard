@@ -36,9 +36,7 @@
     font-weight: 600;
 }
 
-#menu, 
-#upper, 
-#lower {
+#total.menu {
     display: grid;
 }
 
