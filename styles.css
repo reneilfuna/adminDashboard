@@ -252,7 +252,9 @@ li.menu {
 
 #cards {
     display: grid;
+
     background-color: #E2E8F0;
+
     gap: 24px;
 
     grid-template-columns: repeat(2, 1fr);
@@ -261,6 +263,13 @@ li.menu {
 
 .card {
     background-color: white;
+
+    border-radius: 14px;
+
+    display: grid;
+
+    padding-block-start: 8%;
+    padding-inline-start: 6%;
 }
 
 .title {
