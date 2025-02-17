@@ -237,9 +237,15 @@ li.menu {
 
 #cards {
     display: grid;
+    background-color: #E2E8F0;
+    gap: 24px;
 
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+}
+
+.card {
+    background-color: white;
 }
 
 #aux {
