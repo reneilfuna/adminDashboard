@@ -266,7 +266,11 @@ li.menu {
 
     border-radius: 14px;
 
+    box-shadow: inset 0.5em 0 0 -0.2em #F0B429;
+
     display: grid;
+
+    grid-template-columns: 0.1fr 6fr;
 
     padding-block-start: 8%;
     padding-inline-start: 6%;
