@@ -266,7 +266,7 @@ li.menu {
 
     border-radius: 14px;
 
-    box-shadow: inset 0.5em 0 0 -0.2em #F0B429;
+    box-shadow: inset 0.5em 0 0 -0.2em #F0B429, 0px 4px 10px lightgray;
 
     display: grid;
 
