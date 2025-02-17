@@ -5,13 +5,16 @@
 }
 
 #container {
+    background-color: #E2E8F0;
+
     display: grid;
-    text-align: center;
 
     grid-template-rows: 1fr 4.5fr;
     grid-template-columns: 1.5fr 5fr;
 
     height: 100vh;
+
+    text-align: center;
 }
 /* Sidebar section start */
 
@@ -76,6 +79,8 @@ li.menu {
 /* Navigation bar start */
 
 #header {
+    background-color: white;
+
     display: grid;
 
     grid-column: 2;
@@ -200,8 +205,10 @@ li.menu {
 .button {
     align-content: center;
     align-self: center;
-    background-color: #F40119;
+
     border-radius: 50px;
+
+    background-color: #F40119;
     color: ivory;
 
     font-weight: 700;
@@ -213,6 +220,8 @@ li.menu {
 /* Navigation bar end */
 
 #clipboard {
+    background-color: #E2E8F0;
+
     display: grid;
 
     font-size: 30px;
@@ -223,7 +232,7 @@ li.menu {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
 
-    background-color: #E2E8F0;
+    margin-block-start: 2%;
 }
 
 #projects {
