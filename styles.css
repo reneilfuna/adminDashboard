@@ -239,6 +239,8 @@ li.menu {
 #projects {
     display: grid;
 
+    gap: 10px;
+
     grid-row: 1 / 3;
 
     grid-template-rows: 0.25fr 10fr;
