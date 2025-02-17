@@ -229,6 +229,10 @@ li.menu {
 #projects {
     display: grid;
     grid-row: 1 / 3;
+
+    margin: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 #aux {
