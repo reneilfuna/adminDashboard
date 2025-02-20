@@ -301,7 +301,7 @@ li.menu {
 .announce {
     border-block-end: 1px solid rgb(138, 138, 138);
     display: grid;
-    padding: 8px;
+    padding: 4px;
 }
 
 .subtitle {
@@ -311,7 +311,7 @@ li.menu {
 
 .text {
     color: rgb(106, 106, 106);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 200;
 }
 
