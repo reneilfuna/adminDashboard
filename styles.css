@@ -294,6 +294,27 @@ li.menu {
     background-color: white;
     border-radius: 14px;
     box-shadow: 0px 4px 10px lightgray;
+    display: grid;
     padding: 30px;
 }
+    
+.announce {
+    border-block-end: 1px solid rgb(138, 138, 138);
+    display: grid;
+    padding: 8px;
+}
 
+.subtitle {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.text {
+    color: rgb(106, 106, 106);
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+#none {
+    border-block-end: white;
+}
