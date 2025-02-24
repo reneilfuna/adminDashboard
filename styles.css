@@ -219,6 +219,8 @@ li.menu {
 
 /* Navigation bar end */
 
+/* Clipboard below */
+
 #clipboard {
     background-color: #E2E8F0;
 
@@ -266,8 +268,20 @@ li.menu {
 
     display: grid;
 
-    padding-block-start: 8%;
-    padding-inline-start: 6%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+
+    padding: 8%;
+}
+
+.card .title {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.card .text {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
 }
 
 .title {
