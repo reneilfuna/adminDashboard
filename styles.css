@@ -298,6 +298,10 @@ li.menu {
     padding: 30px;
 }
     
+#announces {
+    grid-template-rows: repeat(3, 1fr);
+}
+
 .announce {
     border-block-end: 1px solid rgb(138, 138, 138);
     display: grid;
@@ -317,4 +321,8 @@ li.menu {
 
 #none {
     border-block-end: white;
+}
+
+.account {
+    display: grid;
 }
