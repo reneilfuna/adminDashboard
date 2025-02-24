@@ -309,6 +309,7 @@ li.menu {
 }
 
 .subtitle {
+    align-self: end;
     font-weight: 700;
     font-size: 1rem;
 }
